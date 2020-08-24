@@ -1,0 +1,12 @@
+com\surasint\example\MyApplication.class
+com\surasint\example\web\api\TestRestController.class
+com\surasint\example\db\UserDao1$UserSQLs.class
+com\surasint\example\db\UserBean.class
+com\surasint\example\db\UserDao1$UserMapper.class
+com\surasint\example\db\DataSourceConfiguration.class
+com\surasint\example\db\UserDao2$UserSQLs.class
+com\surasint\example\db\UserDao2$UserMapper.class
+com\surasint\example\service\UserService2.class
+com\surasint\example\db\UserDao2.class
+com\surasint\example\db\UserDao1.class
+com\surasint\example\service\UserService1.class
