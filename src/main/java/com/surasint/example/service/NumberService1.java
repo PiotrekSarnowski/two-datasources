@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 import java.util.Random;
-import org.random.api.*;
+//import org.random.api.*;
 import org.springframework.web.client.RestTemplate;
 
 @Component
@@ -33,14 +33,14 @@ public class NumberService1 {
         String fooResourceUrl = "https://api.random.org/json-rpc/2/invoke";
         NumberBean singleNumberFromAPI = restTemplate
                 .getForObject(fooResourceUrl, NumberBean.class);
+        return 0;
 
-
-        RandomOrgClient roc = RandomOrgClient.getRandomOrgClient(YOUR_API_KEY_HERE);
-
-        numberAPIDao.addNumbers(firstNumberAPI);
-
-        //firstNumberAPI.setNumber();
-        return numberAPIDao.addNumbers(test) + numberSTDDao.addNumbers(firstNumberCore);
+//        RandomOrgClient roc = RandomOrgClient.getRandomOrgClient(YOUR_API_KEY_HERE);
+//
+//        numberAPIDao.addNumbers(firstNumberAPI);
+//
+//        //firstNumberAPI.setNumber();
+//        return numberAPIDao.addNumbers(test) + numberSTDDao.addNumbers(firstNumberCore);
     }
 
 }
